@@ -1,0 +1,42 @@
+# Sales Data Analysis System
+
+## Overview
+A Python project that analyzes sales data from a CSV file to generate insights like total revenue, top products, category-wise performance, and monthly trends.
+
+
+
+## Features
+- Data loading from CSV  
+- Data cleaning (missing values, duplicates)  
+- Revenue calculation  
+- Category-wise and product-wise analysis  
+- Monthly sales trend  
+- Report generation (CSV output)  
+
+
+
+## Technologies
+- Python  
+- Pandas  
+
+
+
+## How to Run
+1. Install Pandas  
+   pip install pandas  
+
+2. Add `sales.csv` file  
+
+3. Run  
+   python main.py  
+
+
+
+## Output
+- Console insights  
+- `report.csv` file  
+
+
+
+##Author
+Anusha R
