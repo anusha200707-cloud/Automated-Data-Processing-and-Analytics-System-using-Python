@@ -1,0 +1,51 @@
+1. Data Loading
+
+The load_data() function reads the CSV file using Pandas and displays:
+	•	Total number of rows
+	•	First few records of the dataset
+
+This helps in understanding the structure of the data.
+
+2. Data Cleaning
+
+The clean_data() function ensures data quality by:
+	•	Removing missing values
+	•	Eliminating duplicate records
+	•	Converting Price and Quantity into numeric format
+	•	Dropping invalid numeric entries
+
+3. Data Processing
+
+The process_data() function:
+	•	Creates a new column Revenue (Price × Quantity)
+	•	Calculates total revenue
+	•	Groups data by Category to find category-wise revenue
+	•	Identifies top 5 products based on revenue
+
+4. Data Analysis
+
+The analyse() function:
+	•	Converts the Date column into datetime format
+	•	Groups data monthly to analyze sales trends
+	•	Calculates average order value
+
+5. Report Generation
+
+The generate_report() function:
+	•	Displays results in the console
+	•	Shows:
+	•	Total revenue
+	•	Category-wise performance
+	•	Top products
+	•	Monthly trends
+	•	Average order value
+	•	Exports category-wise revenue into a CSV report file
+
+6. Main Execution Flow
+
+The program:
+	1.	Checks if the CSV file exists
+	2.	Loads the dataset
+	3.	Cleans and processes the data
+	4.	Performs analysis
+	5.	Generates the final report
